@@ -1,0 +1,60 @@
+- title: Introduction
+  url: docs/introduction
+  children:
+    - title: Background
+      url: docs/introduction
+    - title: About
+      url: about
+    - title: Frequently Asked Questions
+      url: docs/faq
+- title: Getting Started
+  url: docs/getting-started
+  children:
+    - title: Connect to GitHub
+      url: docs/getting-started/connect
+    - title: Recipes
+      url: docs/getting-started/recipes
+    - title: Image References
+      url: docs/getting-started/naming
+    - title: Image Management
+      url: docs/getting-started/manage
+- title: Builds
+  url: docs/builds
+  children:
+    - title: Overview
+      url: docs/builds
+    - title: Automated by Commit
+      url: docs/builds/automated
+    - title: Manual
+      url: docs/builds/manual
+    - title: Deployment
+      url: docs/builds/deployment
+    - title: Metadata
+      url: docs/builds/metadata
+- title: Regulatory
+  url: docs/regulatory
+  children:
+    - title: Overview
+      url: docs/regulatory
+    - title: Terms of Service
+      url: docs/regulatory/usage-agreement
+    - title: Best Practices
+      url: docs/regulatory/best-practices
+    - title: Limits
+      url: docs/regulatory/limits
+- title: Container Interaction
+  url: docs/interact
+- title: Resources
+  url: docs/resources
+  children:
+    - title: Singularity Software
+      external_url: https://www.sylabs.io/guides/3.1/user-guide/
+    - title: Singularity Hub Container Tools
+      external_url: https://singularityhub.github.io
+- title: Support
+  url: docs/resources
+  children:
+    - title: Troubleshooting
+      url: docs/support/troubleshooting
+    - title: Support
+      url: https://www.github.com/singularityhub/singularityhub.github.io/issues
