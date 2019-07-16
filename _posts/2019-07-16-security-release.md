@@ -18,8 +18,8 @@ A quick summary of changes include:
  - unnecessary views have been removed
 
 A detailed description is included below, and for a listing of new limits we direct
-the reader to the [limits]({{ site.baseurl }}/regulatory/limits) page.
-See [best best practices]({{ site.baseurl }}/regulatory/best-practices) for instructions on how to properly pull containers so that you don't exceed a rate limit.
+the reader to the [limits]({{ site.baseurl }}/docs/regulatory/limits) page.
+See [best best practices]({{ site.baseurl }}/docs/regulatory/best-practices) for instructions on how to properly pull containers so that you don't exceed a rate limit.
 
 <!--more-->
 
@@ -42,7 +42,7 @@ the activity.
 
 It is essential that we control all user requests moving forward. This means use
 of the API, downloads of containers, and viewing of the website. The new
-[limits]({{ site.baseurl }}/regulatory/limits) are listed briefly here:
+[limits]({{ site.baseurl }}/docs/regulatory/limits) are listed briefly here:
 
 ### API Access
 
@@ -74,7 +74,7 @@ up quotas for the week.
 
 In addition to API rate limiting, all views are rate limited, with the number
 of allowed requests per ip address varying based on the view. You can see
-specific limits [here]({{ site.baseurl }}/regulatory/limits). Once you reach
+specific limits [here]({{ site.baseurl }}/docs/regulatory/limits). Once you reach
 and then try to exceed the limit, you are blocked.
 
 ### Account Controls
