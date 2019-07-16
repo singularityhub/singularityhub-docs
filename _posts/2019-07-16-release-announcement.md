@@ -7,7 +7,7 @@ badges:
    tag: announce
 ---
 
-I'm am happy to announce that we will cautiously be opening Singularity Hub back up today after quite
+I'm happy to announce that we will cautiously be opening up Singularity Hub after quite
 an eventful July. This version of Singularity Hub follows a malicious use 
 of our API that indeed did put the future of the service at risk. I say cautiously
 because we have disabled building for all except for a group of testing users,
