@@ -1,6 +1,6 @@
 ---
 title:  "Singularity Hub 2.2 Release"
-date:   2019-07-16 11:20:21 -0500
+date:   2019-07-15 11:20:21 -0500
 categories: release
 badges:
  - type: info

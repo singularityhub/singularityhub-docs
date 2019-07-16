@@ -1,14 +1,13 @@
 ---
-title:  "Singularity Hub Open for Testing"
-date:   2019-07-16 12:25:21 -0500
+title:  "Singularity Hub Announcement"
+date:   2019-07-16 10:25:21 -0500
 categories: announcement
-author: @vsoch
 badges:
  - type: info
    tag: release
 ---
 
-I'm am happy to annonuce that we will cautiously be opening Singularity Hub back up today after quite
+I'm am happy to announce that we will cautiously be opening Singularity Hub back up today after quite
 an eventful July. This version of Singularity Hub follows a malicious use 
 of our API that indeed did put the future of the service at risk. I say cautiously
 because we have disabled building for all except for a group of testing users,
