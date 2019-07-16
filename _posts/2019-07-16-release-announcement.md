@@ -4,7 +4,7 @@ date:   2019-07-16 10:25:21 -0500
 categories: announcement
 badges:
  - type: info
-   tag: release
+   tag: announce
 ---
 
 I'm am happy to announce that we will cautiously be opening Singularity Hub back up today after quite
