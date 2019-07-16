@@ -81,6 +81,8 @@ and then try to exceed the limit, you are blocked.
 
 To give users more control over their collections and webhooks, controls have been added to a user’s profile page to delete their account. Previously, they would need to delete container collections and revoke it from GitHub, so this does that for them. 
 
+<img src="{{ site.baseurl }}/assets/img/collection-delete-account.png">
+
 ### API Endpoints
 
 Previously, it was possible to get a listing of collections or containers (but without download addresses). We have removed these endpoints, along with extraneous endpoints
