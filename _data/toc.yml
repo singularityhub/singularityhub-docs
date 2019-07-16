@@ -58,3 +58,5 @@
       url: docs/support/troubleshooting
     - title: Support
       url: https://www.github.com/singularityhub/singularityhub.github.io/issues
+- title: News
+  url: docs/news
