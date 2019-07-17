@@ -14,19 +14,19 @@ Deploying your workflow on the command line is as simple as using [the Singulari
 Singularity Hub:
 
 ```bash
-$ singularity shell shub://vsoch/hello-world
+$ singularity pull shub://vsoch/hello-world
 ```
 
 And then interact with the container binary:
 
 ```bash
 singularity run hello_world_latest.sif
-singularity pull hello_world_latest.sif
+singularity shell hello_world_latest.sif
 singularity exec hello_world_latest.sif ls /
 ```
 
 {% include alert.html type="danger" content="You should <strong>never</strong> issue any of the following commands<pre><code>singularity run shub://vsoch/hello-world
-singularity pull shub://vsoch/hello-world
+singularity shell shub://vsoch/hello-world
 singularity exec shub://vsoch/hello-world ls /
 </code></pre><br>
 As each command will use up one download of your container, and you are limited to a weekly quota."%}
