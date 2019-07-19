@@ -17,11 +17,25 @@ to https://singularity-hub.org.
 
 ## Webhooks
 
-Importantly, since we now use a naked URL, all webhooks for your repositories
-will need to be updated. You can go into your GitHub repository Settings --> Webhooks,
-and then select the Singularity Hub webhook and change the url to not use www.,
-and click save. If you would like for us to do this for you, please
+Importantly, since we now use a naked URL, all previously existing webhooks for your repositories
+will need to be checked and updated if necessary to not include www. You can go into your GitHub repository Settings --> Webhooks, and then select the Singularity Hub webhook and change the url to not use www.,
+and click save. For example, if you see this:
+
+```
+https://www.singularity-hub.org/hooks/build/push
+```
+
+You need to change it to:
+
+```
+https://singularity-hub.org/hooks/build/push
+```
+
+If the url is already correct, no further changes are required. And if 
+you would like for us to do this for you, please
 log in with GitHub, and then contact @vsoch with your collection name.
+If you look at a webhook status and the response is red with 301, 
+this means that you need to make this change.
 
 {% include alert.html type="Warning" content="Your webhook will not ping a build if you do not do this!"%}
 
