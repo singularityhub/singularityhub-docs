@@ -47,6 +47,11 @@ contact @vsoch directly to ask for a special allowance.
 
 For each collection, we allow one active build at a time, and a limit of **5** builds you can have in the active and pending queue at a time. If you ever are concerned about a time out or want to try "pinging" your queue, you can click the ["refresh" icon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Refresh_font_awesome.svg/512px-Refresh_font_awesome.svg.png) in the container controls. 
 
+### Collection Daily Build
+
+Each collection is allowed 25 total builds per day. You can see your daily count
+in your Collection settings.
+
 ### Time Limit
 
 Your builder has a two hour build limit. After 2 hours, the build will be killed.
