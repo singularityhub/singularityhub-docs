@@ -35,8 +35,9 @@ url: "" # the base hostname & protocol for your site
 # Social (First three Required)
 repo: "https://github.com/singularityhub/singularityhub-docs"
 github_user: "singularityhub"
-github_repo: "singularityhub-docs"
-github_private_repo: "singularityhub.github.io"
+github_repo: "singularityhub.github.io"
+docs_repo: "singularityhub-docs"
+github_issues_url: "https://github.com/singularityhub/singularityhub.github.io"
 
 # Optional
 twitter: vsoch
