@@ -19,7 +19,7 @@ to https://singularity-hub.org.
 
 Importantly, since we now use a naked URL, all previously existing webhooks for your repositories
 will need to be checked and updated if necessary to not include www. You can go into your GitHub repository Settings --> Webhooks, and then select the Singularity Hub webhook and change the url to not use www.,
-and click save. For example, if you see this:
+and click save. <!--more--> For example, if you see this:
 
 ```
 https://www.singularity-hub.org/hooks/build/push
