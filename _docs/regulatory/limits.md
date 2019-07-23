@@ -49,7 +49,7 @@ For each collection, we allow one active build at a time, and a limit of **5** b
 
 ### Collection Daily Build
 
-Each collection is allowed 25 total builds per day. You can see your daily count
+Each collection is allowed 10 total builds per day. You can see your daily count
 in your Collection settings.
 
 ### Time Limit
