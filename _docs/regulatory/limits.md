@@ -15,7 +15,7 @@ in any way that might compromise its long term sustainability.
 ### Get Limit
 
 Every single download of a container is counted toward the weekly limit for that container,
-which is set at 100. This means that if you run an exec/run/shell with a container unique
+and the collection, which is set at 50 for each. This means that if you run an exec/run/shell with a container unique
 resource identifier instead of directly to a container binary, you will meet the quota
 almost immediately and not be able to interact with it for a week.
 
@@ -36,7 +36,9 @@ FATAL:   While pulling shub image: Failed to get manifest from Shub: json: canno
 ```
 
 Additionally, the GET request on the server will not allow you to issue more
-than 10 requests per minute. If you have a special request to pull or otherwise
+than 10 requests per minute. We understand that this limits your usage, but
+with a proper setup to pull before you use your container, you really shouldn't need
+anywhere near that number of pulls. If you have a special request to pull or otherwise
 interact with a particular container (e.g., you are giving a workshop with 300
 participants that need to pull in a single day) please 
 contact @vsoch directly to ask for a special allowance.
