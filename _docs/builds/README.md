@@ -2,7 +2,7 @@
 title: Building Containers
 pdf: true
 toc: false
-permalink: docs/builds
+permalink: docs/builds/
 ---
 
 # Meet the Builders
