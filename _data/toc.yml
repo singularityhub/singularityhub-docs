@@ -22,7 +22,7 @@
   url: docs/builds
   children:
     - title: Overview
-      url: docs/builds
+      url: docs/builds/
     - title: Automated by Commit
       url: docs/builds/automated
     - title: Manual
