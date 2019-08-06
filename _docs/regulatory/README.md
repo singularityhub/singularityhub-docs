@@ -7,8 +7,6 @@ permalink: docs/regulatory/
 
 # Regulatory
 
-_these pages are under development_
-
 Singularity Hub is an academic service. It is intended to support reproducible research.
 As a user of Singularity Hub, you agree to use it responsibly. Please see the 
 following sections to describe terms of usage, limits, and policy.
