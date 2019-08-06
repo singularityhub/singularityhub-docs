@@ -37,11 +37,11 @@ If you have different needs than our default builders, please [reach out](https:
 
 # Building Options
 
-Singularity Hub supports the following types of builds
+Singularity Hub supports the following types of builds:
 
- - [Automated Build](automated): build containers automatically from Github commits
- - [Manual Build](manual): Only build when you issue the command.
- - [Deployment Build](deployment): Triggered only by a deployment from Github.
+ - [Automated Build](./automated): build containers automatically from Github commits
+ - [Manual Build](./manual): Only build when you issue the command.
+ - [Deployment Build](./deployment): Triggered only by a deployment from Github.
 
 Each has different use cases, and you should read about each of the above to know what is best for you. For most users, the Automated Build is preferred, but if you want to do testing on your own first, you might choose Deployment Build. If you want to explicitly select commits and recipes and when to do it, or to go back in time to build a previous container, you will want to enable manual build. You are free to change your building selection at any time in the collection settings.
 
