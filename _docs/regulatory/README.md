@@ -2,7 +2,7 @@
 title: Regulatory
 pdf: true
 toc: false
-permalink: docs/regulatory
+permalink: docs/regulatory/
 ---
 
 # Regulatory

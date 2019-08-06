@@ -8,8 +8,10 @@
     - title: Frequently Asked Questions
       url: docs/faq
 - title: Getting Started
-  url: docs/getting-started
+  url: docs/getting-started/
   children:
+    - title: Overview
+      url: docs/getting-started/
     - title: Connect to GitHub
       url: docs/getting-started/connect
     - title: Recipes
@@ -35,7 +37,7 @@
   url: docs/regulatory
   children:
     - title: Overview
-      url: docs/regulatory
+      url: docs/regulatory/
     - title: Terms of Service
       url: docs/regulatory/usage-agreement
     - title: Privacy Policy
@@ -54,11 +56,11 @@
     - title: Singularity Hub Container Tools
       external_url: https://singularityhub.github.io
 - title: Support
-  url: docs/resources
+  url: docs/support
   children:
     - title: Troubleshooting
       url: docs/support/troubleshooting
     - title: Support
-      url: https://www.github.com/singularityhub/singularityhub.github.io/issues
+      external_url: https://www.github.com/singularityhub/singularityhub.github.io/issues
 - title: News
   url: news

@@ -2,7 +2,7 @@
 title: Getting Started
 pdf: true
 toc: false
-permalink: docs/getting-started
+permalink: docs/getting-started/
 ---
 
 # Getting Started
