@@ -30,6 +30,32 @@ When you start and stop builds quickly, such as committing to create a container
 
 ## Why isn't my webhook working?
 
+When we updated Singularity Hub to include new [limits](https://singularityhub.github.io/singularityhub-docs/2019/release-announcement/), we enforced using a singularity-hub.org URL without the "www", meaning that
+going to https://www.singularity-hub.org will redirect to https://singularity-hub.org. This means
+that if you created a GitHub webhook before July 2019, it might have a "www" and will return a 301 response:
+
+```
+Connection: keep-alive
+Content-Length: 185
+Content-Type: text/html
+Date: Mon, 23 Sep 2019 16:21:21 GMT
+Location: https://singularity-hub.org/hooks/build/push
+Server: nginx/1.13.5
+Body
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body bgcolor="white">
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.13.5</center>
+</body>
+</html>
+```
+
+The fix is to go into your GitHub repository "Settings" and under Webhooks, select
+the webhook for Singularity Hub and remove the "www." More details are available
+with the [announcement](https://singularityhub.github.io/singularityhub-docs/2019/open-for-building/#webhooks)
+from July 2019.
+
 For collections that were migrated (and existed on the testing server before it was converted to `singularity-hub.org`) the webhooks need to be updated for the different server address. The first obvious thing to try is logging out, and back in again. You can also navigate to the Settings --> Applications --> OAuth applications page and look at the configuration and response for the hook to better understand any issues. If you have no legacy images and don't mind rebuilding, then just delete the collection, log out and back in, and authenticate again. If you have legacy images (and don't want to delete the collection) then you can either make a second collection to work from, or wait for @vsoch to carefully update the webhooks.
 
 ## Why don't all my commits build images?
