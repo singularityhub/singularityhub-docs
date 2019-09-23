@@ -58,6 +58,14 @@ from July 2019.
 
 For collections that were migrated (and existed on the testing server before it was converted to `singularity-hub.org`) the webhooks need to be updated for the different server address. The first obvious thing to try is logging out, and back in again. You can also navigate to the Settings --> Applications --> OAuth applications page and look at the configuration and response for the hook to better understand any issues. If you have no legacy images and don't mind rebuilding, then just delete the collection, log out and back in, and authenticate again. If you have legacy images (and don't want to delete the collection) then you can either make a second collection to work from, or wait for @vsoch to carefully update the webhooks.
 
+If you are having some other issue with webhooks, make sure that:
+
+ - in your collection settings, your collection is enabled to build
+ - in your collection settings, your build trigger is by commit
+
+In the case that the webhook still isn't working, go to your GitHub repository settings -> Webhooks,
+click on the webhook and provide the full request and response from the server [in an issue](https://github.com/singularityhub/singularityhub.github.io/issues/), or shared privately with @vsoch in an email.
+
 ## Why don't all my commits build images?
 
 If you are ever confused about why a build seems to be over-writing another, remember that the default behavior is to do this **unless you specify to freeze an image*. Also be careful to check your build trigger settings. For example, if you are set to build manually, builds will not happen when you commit.
