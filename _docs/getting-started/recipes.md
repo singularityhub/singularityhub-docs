@@ -75,7 +75,7 @@ git commit -a -m "Adding Singularity file."
 git push origin master  
 ```
 
-Since I am in Automated Build mode(by default), the push will triger builds in Singularity Hub. 
+Since I am in Automated Build mode (the default), the push alone will trigger a build for my collection in Singularity Hub. 
 
 Please note that in the Automated Build mode, Singularity Hub will only consider file changes from the push after the connection being established. That is, if one Singularity file is created before the connection, it would not be considered by Singularity Hub, unless you modified it in the following push.
 
