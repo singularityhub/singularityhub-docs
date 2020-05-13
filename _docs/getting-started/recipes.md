@@ -77,6 +77,6 @@ git push origin master
 
 Since I am in Automated Build mode (the default), the push alone will trigger a build for my collection in Singularity Hub. 
 
-Please note that in the Automated Build mode, Singularity Hub will only consider file changes from the push after the connection being established. That is, if one Singularity file is created before the connection, it would not be considered by Singularity Hub, unless you modified it in the following push.
+Please note that in the Automated Build mode, Singularity Hub will only consider file changes from the push after the connection has been established. That is, if one Singularity file is created before the connection, it would not be seen by Singularity Hub unless you modified it in the following push. Also note that recipes are discovered by way of the Singularity.* prefix, so make sure that you name your files accordingly. The suffix (after `Singularity.`) is used for the container tag.
 
 Next, you might want to explore your [options for building](../builds) or read about [build limits](../regulatory/limits)
