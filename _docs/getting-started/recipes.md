@@ -67,7 +67,7 @@ Then two images will be built, `shub://vsoch/hello-world:latest` and `shub://vso
 
 After logging in to Singularity Hub with your GitHub account, you can [create a new collection](https://singularity-hub.org/collections/new), which means making a connection to some GitHub repository where you've put your files and data. This collection of builds, a Container Collection, is associated with a single repository. 
 
-Let's say that I create then a recipe in this repository. I would add the file, and push to Github.
+Let's say that I create a recipe in this repository. I would add the file, and push to GitHub.
 
 ```bash
 git add Singularity  
