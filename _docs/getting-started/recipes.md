@@ -65,7 +65,9 @@ Then two images will be built, `shub://vsoch/hello-world:latest` and `shub://vso
 
 # Building your Container
 
-Let's say that we created a recipe. I would add this file to one of my Github repositories, and push to Github.
+After logging in to Singularity Hub with your GitHub account, you can [create a new collection](https://singularity-hub.org/collections/new), which means making a connection to some GitHub repository where you've put your files and data. This collection of builds, a Container Collection, is associated with a single repository. 
+
+Let's say that I create a recipe in this repository. I would add the file, and push to GitHub.
 
 ```bash
 git add Singularity  
@@ -73,6 +75,8 @@ git commit -a -m "Adding Singularity file."
 git push origin master  
 ```
 
-Then I would log in to Singularity Hub with my Github account and [add the repository](https://singularity-hub.org/collections/new). A collection of builds, a Container Collection, is associated with a single repository.
+Since I am in Automated Build mode (the default), the push alone will trigger a build for my collection in Singularity Hub. 
+
+Please note that in the Automated Build mode, Singularity Hub will only consider file changes from the push after the connection has been established. That is, if one Singularity file is created before the connection, it would not be seen by Singularity Hub unless you modified it in the following push. Also note that recipes are discovered by way of the Singularity.* prefix, so make sure that you name your files accordingly. The suffix (after `Singularity.`) is used for the container tag.
 
 Next, you might want to explore your [options for building](../builds) or read about [build limits](../regulatory/limits)
