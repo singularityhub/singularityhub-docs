@@ -65,7 +65,7 @@ Then two images will be built, `shub://vsoch/hello-world:latest` and `shub://vso
 
 # Building your Container
 
-To begin with, I would log in to Singularity Hub with my Github account and [add the repository](https://singularity-hub.org/collections/new), the repository in which I will put my files and data. A collection of builds, a Container Collection, is associated with a single repository. 
+After logging in to Singularity Hub with your GitHub account, you can [create a new collection](https://singularity-hub.org/collections/new), which means making a connection to some GitHub repository where you've put your files and data. This collection of builds, a Container Collection, is associated with a single repository. 
 
 Let's say that I create then a recipe in this repository. I would add the file, and push to Github.
 
