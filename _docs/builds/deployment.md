@@ -10,14 +10,14 @@ If you use continuous integration to test and then issue a deployment commit, Si
 
 ## Overview
 
-Any continuous integration service that implements interacts with [GitHub deployment
+Any continuous integration service that interacts with [GitHub deployment
 API](https://developer.github.com/v3/repos/deployments/) may be able to create deployments
 for you. Usually you must enable this through their configuration.
 
 Examples of providers:
 
  * [Travis-CI](https://docs.travis-ci.com/user/deployment/releases/)
- * [Jenkins](https://resources.github.com/whitepapers/practical-guide-to-CI-with-Jenkins-and-GitHub/))
+ * [Jenkins](https://resources.github.com/whitepapers/practical-guide-to-CI-with-Jenkins-and-GitHub/)
 
 For providers that don't have internal support, there are [tools](https://circleci.com/blog/publishing-to-github-releases-via-circleci/) that you can use to still interact with the API.
 
