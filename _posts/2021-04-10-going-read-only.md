@@ -30,7 +30,7 @@ And no worries, [DataLad](http://datalad.org) will not be required, and `singula
 will be working as before, so no changes would be required to your scripts for already existing images. singularity-hub.org will continue to exist as a static, archival registry.
 
 ## Alternatives
-
+While it could be possible to again provide builders for Singularity Hub, there are no plans to do this at this time. The following options are available if you want to continue building:
 - Deploy your own [Singularity Registry Server (sregistry)](https://singularityhub.github.io/sregistry/)
 - Build a Docker image and pull down to Singularity with the `docker://` unique resource identifier. You kill two birds with one stone.
 - Build and upload Singularity images to GitHub releases: see https://github.com/singularityhub/singularity-deploy
