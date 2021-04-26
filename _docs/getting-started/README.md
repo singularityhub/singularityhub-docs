@@ -19,10 +19,10 @@ controlled recipes in GitHub. Here's how that worked.
 If you previously built a container and want to update your badge to the archive,
 you can add the following to your GitHub repository README:
 
-[![{{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg]({{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/17) 
+[![{{ site.url }}{{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg]({{ site.url }}{{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/17) 
 
 ```bash
-[![{{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg]({{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/17) 
+[![{{ site.url }}{{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg]({{ site.url }}{{ site.baseurl }}/assets/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/17) 
 ```
 
-And don't forget to read about [server limits](../regulatory/limits) thta governed the above.
+And don't forget to read about [server limits](../regulatory/limits) that governed the above.
