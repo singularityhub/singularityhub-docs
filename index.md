@@ -22,9 +22,7 @@ Hello there! It's so great that you are interested Singularity Hub.
 <br>
 <br>
 
-{% include alert.html title="Notice" type="danger" content="Singularity
-Hub is no longer online as a builder service, but exists as a read only archive. Containers built before April 19, 2021, are available at their same pull URLs" %}
-
+{% include alert.html title="Notice" type="danger" content="Singularity Hub is no longer online as a builder service, but exists as a read only archive. Containers built before April 19, 2021 are available at their same pull URLs. To see a last day gallery of Singularity Hub, please see <a href='https://singularityhub.github.io/singularityhub-docs/lastday/'>here</a>" %}
 
 
 <br>
