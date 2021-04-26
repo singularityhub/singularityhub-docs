@@ -14,10 +14,17 @@ excluded_in_search: true
 
 # Singularity Hub Documentation
 
-Hello there! It's so great that you want to use Singularity Hub. Let's get started. 
+Hello there! It's so great that you are interested Singularity Hub.
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/singularityhub/lobby)
 [![DOI](https://img.shields.io/badge/paper-plos--one-blue.svg)](https://doi.org/10.1371/journal.pone.0188511)
+
+<br>
+<br>
+
+{% include alert.html title="Notice" type="danger" content="Singularity
+Hub is no longer online as a builder service, but exists as a read only archive. Containers built before April 19, 2021, are available at their same pull URLs" %}
+
 
 
 <br>
@@ -43,5 +50,5 @@ This is the official user guide for [singularity-hub.org](https://singularity-hu
 - [singularity global client](https://singularityhub.github.io/sregistry-cli) is another option if you want a manager included (a small database to keep track of things).
 - [singularity registry server](https://singularityhub.github.io/sregistry) is an open source version of Singularity Hub if you want to deploy your own (that you can push to).
 - [Troubleshooting](docs/support/troubleshooting) in case you need some help!
-- [Regularity](docs/regulatory) including usage limits, terms of usage, and privacy.
+- [Regulatory](docs/regulatory) including usage limits, terms of usage, and privacy.
 
